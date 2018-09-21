@@ -11,7 +11,6 @@ public class Move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Rigidbody rb = GetComponent<Rigidbody>();
         transform.position = new Vector3(initialPosition.x + Mathf.Sin(Time.time) * 2.0f, initialPosition.y, initialPosition.z);
 	}
 }
