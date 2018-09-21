@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Move : MonoBehaviour {
-
+    private Vector3 initialPosition;
 	// Use this for initialization
 	void Start () {
-		
+        initialPosition = transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
         Rigidbody rb = GetComponent<Rigidbody>();
-        rb.velocity = new Vector3(1f, 0, 0);
+        transform.position = new Vector3(initialPosition.x + Mathf.Sin(Time.time) * 2.0f, initialPosition.y, initialPosition.z);
 	}
 }
