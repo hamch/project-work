@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Touch : MonoBehaviour {
-    private GameObject title;
+public class Startt : MonoBehaviour {
+    
     
 	// Use this for initialization
 	void Start () {
-        title = GameObject.Find("tit");
+        
 	}
     
 	// Update is called once per frame
