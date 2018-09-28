@@ -15,9 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/OverScene.unity
     guid: 58dbda32935d06d4aa3166aa77cafbde
   - enabled: 1
-    path: Assets/Scenes/TitleScene.unity
+    path: Assets/Scenes/Select.unity
     guid: 9050aa29b13d3204fae066a13f3017d2
   - enabled: 1
     path: Assets/Scenes/Stage-1.unity
     guid: 92e723ba846b3dd4faf0b3ee42083628
+  - enabled: 1
+    path: Assets/Scenes/TitleScene.unity
+    guid: 5a13b0c85eb67f9419c0a43f7539abb1
   m_configObjects: {}
