@@ -246,7 +246,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30FB\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3\u3092\u5730\u9762\u3068\u5E73\u884C\u306B\u6301\u3064\n\u30FB\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3\u524D\u5F8C\u5DE6\u53F3\u306B\u50BE\u3051\u3066\u79FB\u52D5\n\u30FB\u30B9\u30C6\u30FC\u30B8\u304B\u3089\u843D\u3061\u305A\u306B\u30B4\u30FC\u30EB\u306B\u305F\u3069\u308A\u7740\u304F"
+  m_Text: "\u76EE\u7684\n\u969C\u5BB3\u7269\u306B\u5F53\u305F\u3089\u305A\u306B\u30B4\u30FC\u30EB\u307E\u3067\u305F\u3069\u308A\u7740\u304F\n\u30B9\u30C6\u30FC\u30B8\u304B\u3089\u3082\u843D\u4E0B\u3057\u3066\u306F\u306A\u3089\u306A\u3044"
 --- !u!222 &632306632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -376,10 +376,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 400, y: 500}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -650,7 +650,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1937808189}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1937808187}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1937808189

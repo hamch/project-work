@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Rota1 : MonoBehaviour {
     public float lotatespeed = 1f;
+    public float lotaspeed = 0f;
+    public float lospeed = 0f;
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +13,6 @@ public class Rota1 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Rotate(new Vector3(0, lotatespeed, 0));
+        transform.Rotate(new Vector3(lotaspeed, lotatespeed, lospeed));
 	}
 }

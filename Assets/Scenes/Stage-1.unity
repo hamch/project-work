@@ -1114,6 +1114,7 @@ GameObject:
   - component: {fileID: 1024066901}
   - component: {fileID: 1024066900}
   - component: {fileID: 1024066905}
+  - component: {fileID: 1024066909}
   - component: {fileID: 1024066908}
   - component: {fileID: 1024066907}
   - component: {fileID: 1024066906}
@@ -1252,6 +1253,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c742e123c41ea2740aa9e0a962b6ebe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1024066909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1024066899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1632558e6e697e44b8b77da7b506f297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1024066899}
+  Upspeed: 300
 --- !u!1 &1130054723
 GameObject:
   m_ObjectHideFlags: 0
