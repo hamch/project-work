@@ -9,13 +9,13 @@ public class StageSLC : MonoBehaviour {
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-        
-    }
-    public void OnClick()
+    void Update()
     {
-        SceneManager.LoadScene("STGsl");
+        if (Input.touchCount > 0)
+        {
+            SceneManager.LoadScene("STGsl");
+        }
     }
+    // Update is called once per frame
+    
 }

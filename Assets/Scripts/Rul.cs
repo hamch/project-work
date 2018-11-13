@@ -12,6 +12,6 @@ public class Rul : MonoBehaviour
     }
     public void OnClick()
     {
-        SceneManager.LoadScene("Rulu");
+        SceneManager.LoadScene("Rule");
     }
 }

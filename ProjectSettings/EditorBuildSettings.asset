@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/STGsl.unity
     guid: 9050aa29b13d3204fae066a13f3017d2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Rule.unity
     guid: c494c4d195a6098439676b3fa8185c53
   - enabled: 1

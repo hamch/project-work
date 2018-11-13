@@ -15,6 +15,8 @@ public class Down : MonoBehaviour {
         totalTime -= Time.deltaTime;
         seconds = (int)totalTime;
         Debug.Log("totalTime"); 
+
+
 	}
     
 }
